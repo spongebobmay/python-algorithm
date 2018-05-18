@@ -21,6 +21,7 @@ def longestPalindrome(s):
             pR= i+pArr[i]
             index=i;
         maxR = max(pArr[i],maxR)
+   #若要返回长度，直接在此处写return maxR-1，后面的代码都不要了
     indexR= pArr.index(maxR)
     maxR = maxR - 1
     center = indexR/2

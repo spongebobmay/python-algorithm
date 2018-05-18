@@ -1,3 +1,4 @@
+#返回最长回文字串，python2.7 ,manacher算法
 def longestPalindrome(s):
     """
     :type s: str
@@ -29,5 +30,4 @@ def longestPalindrome(s):
     else:
         return s[center - R:center + R]
 print longestPalindrome("abc1234321ab")
-
-
+#打印1234321
